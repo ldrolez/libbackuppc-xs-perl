@@ -1,0 +1,25 @@
+COPYRIGHT
+---------
+
+BackupPC code is copyright (C) 2013 Craig Barratt
+<cbarratt@users.sourceforge.net>.
+
+bpc_hashTable.c is based on code from rsync.  Rsync is Copyright
+(C) 1996-2001 by Andrew Tridgell, 1996 by Paul Mackerras, 2001-2002
+by Martin Pool, and 2003-2009 by Wayne Davison, and others.
+
+The md5 library is from the rsync codebase, and is Copyright (C) 2001-2003
+Christophe Devine.  See the code for the license.
+
+The zlib library is from the rsync codebase, and is Copyright (C) 1995-2005
+Jean-loup Gailly and Mark Adler.  See the code for the license.
+
+Backuppc may be used, modified and redistributed only under the terms of
+the GNU General Public License, found in the file:
+
+  /usr/share/common-licenses/GPL-3
+
+on Debian systems, or at
+
+  http://www.fsf.org/licensing/licenses/gpl.html
+
