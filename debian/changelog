@@ -1,0 +1,21 @@
+backuppc-xs (0.53) stable; urgency=medium
+
+  * 0.53: March 23, 2017
+    - updates to bpc_attribCache to sanitize path names and prepending ac->currentDir
+      in bpc_attribCache_getDirEntries().
+
+  * 0.52: March 9, 2017
+    - updated config.guess and config.sub; fixes problem with aarch64 and ppc64le
+      reported by Denis Fateyev.
+
+  * 0.51: March 5, 2017
+    - added dynamic:: target to subdir Makefile.PLs to fix build issue on gentoo
+      (patch submitted by Slaven Rezic; see https://rt.cpan.org/Ticket/Display.html?id=120495)
+
+ -- Raoul Bhatia <raoul@bhatia.at>  Sat, 25 Mar 2017 12:16:28 +0100
+
+backuppc-xs (0.50) stable; urgency=medium
+
+  * Initial release.
+
+ -- Raoul Bhatia <raoul@bhatia.at>  Wed, 05 Mar 2017 06:10:13 +0100

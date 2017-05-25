@@ -1,0 +1,26 @@
+# DEBIAN
+debian/backuppc-xs.*
+debian/backuppc-xs/
+debian/debhelper-build-stamp
+debian/files
+debian/.debhelper/
+
+
+# Specific files
+*.o
+*.a
+
+config.h
+config.log
+config.status
+
+MYMETA.json
+MYMETA.yml
+Makefile
+
+BackupPC_XS.c
+XS.bs
+blib/
+pm_to_blib
+
+Makefile.old
