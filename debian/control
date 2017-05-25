@@ -1,14 +1,14 @@
-Source: backuppc-xs
-Maintainer: Jack <jack@k-net.pro>
-Section: utils
+Source: libbackuppc-xs-perl
+Maintainer: Ludovic Drolez <ldrolez@debian.org>
+Section: perl
 Priority: optional
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), autotools-dev
 
-Package: backuppc-xs
+Package: libbackuppc-xs-perl
 Architecture: amd64
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
-Description: high-performance, enterprise-grade system for backing up PCs
+Description: Perl module for BackupPC
  BackupPC is disk based and not tape based. This particularity allows
  features not found in any other backup solution:
   * Clever pooling scheme minimizes disk storage and disk I/O.

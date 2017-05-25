@@ -1,0 +1,2 @@
+version=2
+https://github.com/backuppc/backuppc-xs/releases .*/BackupPC-XS-(.*).tar.gz	debian uupdate

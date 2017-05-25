@@ -1,5 +1,11 @@
-COPYRIGHT
----------
+This package was debianized by Ludovic Drolez <ldrolez@debian.org> on
+Thu, 25 May 2017 12:00:00 +0200.
+
+It was downloaded from https://github.com/backuppc/backuppc-xs/releases
+
+Upstream Author: Craig Barratt <cbarratt@users.sourceforge.net>
+
+Copyright:
 
 BackupPC code is copyright (C) 2013 Craig Barratt
 <cbarratt@users.sourceforge.net>.

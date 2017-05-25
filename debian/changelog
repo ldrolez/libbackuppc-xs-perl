@@ -1,3 +1,10 @@
+libbackuppc-xs-perl (0.53-1) unstable; urgency=low
+
+  * Changed Debian package name
+  * Added watch file
+
+ -- Ludovic Drolez <ldrolez@debian.org>  Thu, 25 May 2017 12:20:52 +0200
+
 backuppc-xs (0.53) stable; urgency=medium
 
   * 0.53: March 23, 2017
