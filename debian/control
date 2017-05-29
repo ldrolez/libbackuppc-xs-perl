@@ -6,7 +6,7 @@ Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), autotools-dev
 
 Package: libbackuppc-xs-perl
-Architecture: amd64
+Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}
 Description: Perl module for BackupPC
  BackupPC is disk based and not tape based. This particularity allows

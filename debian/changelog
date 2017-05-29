@@ -1,3 +1,10 @@
+libbackuppc-xs-perl (0.54-1) unstable; urgency=low
+
+  * New release
+  * Added lintian override
+
+ -- Ludovic Drolez <ldrolez@debian.org>  Mon, 29 May 2017 11:31:22 +0200
+
 libbackuppc-xs-perl (0.53-1) unstable; urgency=low
 
   * Changed Debian package name
