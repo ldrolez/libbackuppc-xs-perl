@@ -20,12 +20,12 @@ WriteMakefile(
     VERSION_FROM      => 'lib/BackupPC/XS.pm', # finds $VERSION
     ABSTRACT_FROM     => 'lib/BackupPC/XS.pm', # finds ABSTRACT
     PREREQ_PM         => {}, # e.g., Module::Name => 1.1
-    LIBS              => [''], # e.g., '-lm'
+    LIBS              => ['-lz'], # e.g., '-lm'
     DEFINE            => '', # e.g., '-DHAVE_SOMETHING'
     INC               => '-I.', # e.g., '-I. -I/usr/include/other'
     OBJECT            => $object,
-    MYEXTLIB          => 'zlib/libzlib$(LIB_EXT) md5/libmd5$(LIB_EXT)',
-    DIR               => ['md5', 'zlib'],
+    MYEXTLIB          => 'md5/libmd5$(LIB_EXT)',
+    DIR               => ['md5' ], #, 'zlib'],
     depend            => { 'BackupPC_XS.o' => 'config.h' },
     clean             => { FILES => "config.log config.status config.h" },
 );
@@ -33,8 +33,8 @@ WriteMakefile(
 sub MY::postamble {
         return <<'EOF';
 
-zlib/libzlib$(LIB_EXT): zlib/Makefile config.h
-	cd zlib && $(MAKE) $(PASSTHRU)
+#zlib/libzlib$(LIB_EXT): zlib/Makefile config.h
+#	cd zlib && $(MAKE) $(PASSTHRU)
 
 md5/libmd5$(LIB_EXT): md5/Makefile config.h
 	cd md5 && $(MAKE) $(PASSTHRU)
