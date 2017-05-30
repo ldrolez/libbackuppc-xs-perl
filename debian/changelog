@@ -1,7 +1,7 @@
 libbackuppc-xs-perl (0.54-1) unstable; urgency=low
 
   * New release
-  * Added lintian override
+  * Do not build with included zlib
 
  -- Ludovic Drolez <ldrolez@debian.org>  Mon, 29 May 2017 11:31:22 +0200
 
